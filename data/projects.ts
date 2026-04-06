@@ -8,9 +8,9 @@ export interface Project {
 export const projects: Project[] = [
   {
     title: "Galli Maps",
-    description: "Developed a comprehensive mapping platform for location-based services, utilizing Next.js for a responsive frontend with interactive maps, Laravel for robust backend APIs handling geospatial data, and PostgreSQL for efficient storage and querying of location data. Implemented performance optimizations to handle high-volume requests, ensuring fast load times and scalability.",
-    tech: ["Next.js", "Laravel", "PostgreSQL", "Leaflet", "Redis"],
-    link: "#"
+    description: "Developed a comprehensive local mapping platform for Nepal, featuring interactive maps powered by Next.js frontend and Laravel backend APIs for geospatial data handling. Integrated MapLibre for advanced map visualization and PostgreSQL for efficient storage and querying of location data. Implemented performance optimizations to handle high-volume requests, ensuring fast load times and scalability for location-based services across Nepal.",
+    tech: ["NodeJs", "MongoDB", "MapLibre"],
+    link: "https://gallimaps.com/"
   },
   {
     title: "Aenergi",

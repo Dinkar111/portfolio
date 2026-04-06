@@ -10,45 +10,86 @@ export interface Experience {
 
 export const experiences: Experience[] = [
   {
-    title: "Senior Software Engineer",
-    company: "TechCorp Solutions",
-    period: "2022 - Present",
+    title: "Software Engineer",
+    company: "VajraTech",
+    period: "December 2024 - Present",
     type: "Full-time",
-    location: "Remote",
+    location: "Lazimpat, Kathmandu, Nepal",
     color: "blue",
     achievements: [
-      "Led development of multi-tenant SaaS platform serving 10,000+ users, reducing infrastructure costs by 35%",
-      "Architected and implemented scalable backend APIs using Laravel and PostgreSQL, handling 1M+ daily requests",
-      "Built responsive frontend interfaces with Next.js, improving user engagement by 40%",
-      "Mentored junior developers and established code review processes that improved code quality metrics"
+      "Developed and maintained full stack web application features using React (frontend) and Laravel (backend), contributing to end-to-end product delivery for Apollo Aenergi",
+      "Built RESTful APIs with Laravel to support dynamic data rendering in React, ensuring seamless client-server communication",
+      "Implemented reusable React components to improve UI consistency and reduce development time across the application",
+      "Collaborated with the team to debug and resolve application issues, improving overall system stability and user experience",
+      "Participated in code reviews and followed best practices to maintain clean, scalable, and maintainable codebases"
     ]
   },
   {
-    title: "Software Engineer",
-    company: "InnovateLabs",
-    period: "2020 - 2022",
+    title: "Software Developer",
+    company: "Galli Express",
+    period: "January 2023 - December 2024",
     type: "Full-time",
-    location: "On-site",
+    location: "Patan Dhoka, Lalitpur",
     color: "green",
     achievements: [
-      "Developed and maintained e-commerce platform using Laravel backend and React frontend",
-      "Optimized database queries and implemented caching strategies, reducing page load times by 60%",
-      "Collaborated with cross-functional teams to deliver features on time and within budget",
-      "Implemented automated testing and CI/CD pipelines, increasing deployment frequency by 3x"
+      "Developed a secure authentication system for B2B client management using Node Express.js, TypeScript, and MongoDB",
+      "Built middleware ensuring secure access to APIs using API key authentication",
+      "Implemented a Node.js cron job to automate daily tasks, including calculating total service usage for clients",
+      "Developed a data visualization dashboard using Next.js with an interactive map built using MapLibre and GalliMaps"
     ]
   },
   {
-    title: "Junior Software Engineer",
-    company: "StartupXYZ",
-    period: "2019 - 2020",
+    title: "Laravel Developer",
+    company: "Airlift Technologies",
+    period: "December 2021 - January 2023",
     type: "Full-time",
-    location: "Hybrid",
+    location: "Bafal, Kathmandu",
     color: "purple",
     achievements: [
-      "Built RESTful APIs and database schemas for fintech application using Laravel and MySQL",
-      "Contributed to frontend development using Vue.js and modern JavaScript frameworks",
-      "Participated in agile development processes and sprint planning",
-      "Learned and applied best practices for code quality, security, and performance optimization"
+      "Developed backend functionalities for the GoTaxi ride-sharing application using Laravel and PostgreSQL",
+      "Designed and implemented a relational database schema for the GoTaxi application, ensuring efficient data storage and retrieval",
+      "Developed RESTful APIs for core functionalities including user authentication, ride request processing, driver matching, and CRUD operations",
+      "Implemented Pusher sockets for real-time communication and Firebase push notifications for driver alerts"
+    ]
+  },
+  {
+    title: "Backend Developer (Trainee)",
+    company: "Coding Mountain",
+    period: "September 2021 - December 2021",
+    type: "Trainee",
+    location: "Mahalaxmistan, Lalitpur",
+    color: "indigo",
+    achievements: [
+      "Contributed to the development of a Chromium-based browser by performing string manipulation tasks within the Python codebase",
+      "Modified codebase using Python's regular expressions and string manipulation techniques to replace Chromium branding",
+      "Actively participated in team discussions and collaborative development"
+    ]
+  },
+  {
+    title: "Backend Developer (Intern)",
+    company: "Young Innovations",
+    period: "June 2021 - September 2021",
+    type: "Internship",
+    location: "Mahalaxmistan, Lalitpur",
+    color: "cyan",
+    achievements: [
+      "Focused on acquiring strong fundamentals in Python programming, including object-oriented programming principles",
+      "Learned Git version control fundamentals for code management and collaboration",
+      "Developed a command-line application using the Django web framework with model-view-template architecture",
+      "Built a school management system utilizing Python, Django, and PostgreSQL with student records and grade management"
+    ]
+  },
+  {
+    title: "Backend Developer (Part-Time)",
+    company: "Bhugol Technology",
+    period: "July 2020 - November 2020",
+    type: "Part-time",
+    location: "Tamsipakha, Kathmandu",
+    color: "rose",
+    achievements: [
+      "Built a backend using Express.js and MongoDB for the virtual tour application, focusing on CRUD operations",
+      "Managed user and tour data storage and retrieval",
+      "Actively participated in team discussions and brainstormed ideas for project improvements"
     ]
   }
 ];
@@ -66,9 +107,9 @@ export interface PortfolioData {
 export const portfolioData: PortfolioData = {
   hero: {
     name: "Dinkar Maharjan",
-    title: "Software Engineer with 5 years of experience building scalable backend systems and SaaS platforms."
+    title: "Full Stack Developer with expertise in React, Laravel, Node.js, and modern web technologies."
   },
-  about: "I specialize in developing high-performance applications using Next.js for frontend interfaces, Laravel for robust backend APIs, and PostgreSQL for reliable data management. My expertise in multi-tenancy architectures has enabled efficient scaling for enterprise clients, reducing operational overhead by up to 40% through optimized database designs and caching strategies. I focus on delivering systems that prioritize security, maintainability, and user experience, consistently meeting tight deadlines while ensuring code quality through automated testing and continuous integration.",
-  skills: "Proficient in full-stack development with Next.js, Laravel, and PostgreSQL, emphasizing performance optimization, multi-tenancy solutions, and scalable backend architectures.",
-  tagline: "Engineering solutions that drive efficiency and reliability in complex software ecosystems."
+  about: "I'm a Full Stack Developer with 4+ years of professional experience in building web applications and scalable systems. My expertise spans React for dynamic frontends, Laravel and Node.js for robust backend services, and PostgreSQL for reliable data management. I've successfully delivered projects ranging from ride-sharing platforms to real estate management systems and data visualization dashboards. I'm passionate about writing clean, maintainable code and collaborating with teams to build solutions that solve real-world problems.",
+  skills: "React.js, Next.js, Node.js, Express.js, Laravel, Django, PostgreSQL, MongoDB, Docker, TypeScript, JavaScript, Git, RESTful APIs, Real-time Communication (Pusher, Firebase)",
+  tagline: "Building scalable, user-focused web applications that drive results."
 };

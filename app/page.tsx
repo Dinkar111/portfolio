@@ -13,6 +13,18 @@ const colorClasses = {
   purple: {
     border: "border-purple-500",
     text: "text-purple-600 dark:text-purple-400"
+  },
+  indigo: {
+    border: "border-indigo-500",
+    text: "text-indigo-600 dark:text-indigo-400"
+  },
+  cyan: {
+    border: "border-cyan-500",
+    text: "text-cyan-600 dark:text-cyan-400"
+  },
+  rose: {
+    border: "border-rose-500",
+    text: "text-rose-600 dark:text-rose-400"
   }
 };
 
