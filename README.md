@@ -1,22 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+
+## 🏗️ Architecture
+
+### Component Organization
+
+- **`/components/`** - Reusable components that can be used across different projects
+  - `Projects` - Horizontal scrolling project showcase
+  - `Connect` - Social media links component
+
+- **`app/page.tsx`** - Main portfolio page with data-driven sections
+  - Hero, About, Skills, Experience, Tagline sections sourced from `/data/portfolio.ts`
+
+- **`/data/`** - Centralized content and data management
+  - `portfolio.ts` - Experience history, personal content, and portfolio data
+  - `projects.ts` - Project showcase data with TypeScript interfaces
+
+### Features
+
+- ⚡ Next.js 16 with App Router
+- 🎨 Tailwind CSS v4 with dark mode
+- 📱 Fully responsive design
+- ♿ Accessibility-first approach
+- 🔧 TypeScript for type safety
+- 🎯 Component-based architecture
+
+## 🚀 Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
+
+```
+portfolio/
+├── app/                 # Next.js app directory
+│   ├── layout.tsx      # Root layout with theme provider
+│   └── page.tsx        # Main portfolio page (data-driven sections)
+├── components/         # Reusable components
+│   ├── Projects.tsx    # Project showcase component
+│   ├── Connect.tsx     # Social media links component
+│   ├── ThemeProvider.tsx # Theme context provider
+│   ├── ThemeToggle.tsx # Theme toggle button
+│   └── ErrorBoundary.tsx # Error boundary component
+├── data/               # Portfolio data and content
+│   ├── portfolio.ts    # Experience, about, skills, and other content
+│   └── projects.ts     # Project data and interfaces
+```
+│   ├── Connect.tsx     # Social links component
+│   ├── ErrorBoundary.tsx # Error handling
+│   ├── ThemeProvider.tsx
+│   ├── ThemeToggle.tsx
+│   └── index.ts        # Barrel exports
+├── data/               # Static data
+│   └── projects.ts     # Project data
+└── public/             # Static assets
+```
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
