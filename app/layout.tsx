@@ -1,15 +1,11 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
+import Navbar from "@/components/Navbar";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
 });
 
@@ -84,14 +80,15 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${montserrat.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors">
+      <body className="min-h-full flex flex-col bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors font-montserrat">
         <ErrorBoundary>
             <div className="flex-1">
+              <Navbar />
               {children}
             </div>
-            <footer className="border-t border-gray-200 dark:border-gray-700 py-8 mt-16 bg-white dark:bg-gray-900">
+            <footer className="border-t border-gray-200 dark:border-gray-700 py-8  bg-white dark:bg-gray-900">
               <div className="max-w-4xl mx-auto px-4 flex justify-end items-center">
                 <p className="text-gray-600 dark:text-gray-400">&copy; 2026 Dinkar Maharjan. All rights reserved.</p>
               </div>

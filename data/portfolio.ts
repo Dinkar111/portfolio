@@ -98,6 +98,8 @@ export interface PortfolioData {
   hero: {
     name: string;
     title: string;
+    description: string;
+    location: string;
   };
   about: string;
   skills: string;
@@ -107,9 +109,11 @@ export interface PortfolioData {
 export const portfolioData: PortfolioData = {
   hero: {
     name: "Dinkar Maharjan",
-    title: "Full Stack Developer with expertise in React, Laravel, Node.js, and modern web technologies."
+    title: "Full Stack Developer",
+    description: "Full Stack Developer with expertise in React, Laravel, Node.js, and modern web technologies.",
+    location: "Based in Kathmandu, Nepal",
   },
-  about: "I'm a Full Stack Developer with 4+ years of professional experience in building web applications and scalable systems. My expertise spans React for dynamic frontends, Laravel and Node.js for robust backend services, and PostgreSQL for reliable data management. I've successfully delivered projects ranging from ride-sharing platforms to real estate management systems and data visualization dashboards. I'm passionate about writing clean, maintainable code and collaborating with teams to build solutions that solve real-world problems.",
+  about: "Full Stack Developer with 4+ years of experience building web applications and scalable systems. Skilled in React, Laravel, Node.js, and PostgreSQL, with a track record of delivering projects from ride-sharing platforms to real estate management systems. Passionate about clean, maintainable code and creating solutions that solve real-world problems.",
   skills: "React.js, Next.js, Node.js, Express.js, Laravel, Django, PostgreSQL, MongoDB, Docker, TypeScript, JavaScript, Git, RESTful APIs, Real-time Communication (Pusher, Firebase)",
   tagline: "Building scalable, user-focused web applications that drive results."
 };
